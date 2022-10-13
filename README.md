@@ -1,5 +1,5 @@
 # Vanilla-JavaScript
 <br/>
 
-## To Do Application 
+## To Do App 
 - [Live Demo](https://mohamed-khaled-todo.netlify.app/)
