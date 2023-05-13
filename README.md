@@ -5,5 +5,4 @@ A simple to-do list application built with vanilla JavaScript. Add tasks, mark t
 
 <br/>
 
-## To Do App 
-- [Live Demo](https://mohamed-khaled-todo.netlify.app/)
+- [Demo](https://mohamed-khaled-todo.netlify.app/)
