@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get things done 😁">
+    <meta name="description" content="Get things done.">
     <link rel="icon" href="source/favicon-16.ico">
     <!-- local style files-->
     <link rel="stylesheet" href="style/style.css">
@@ -12,20 +12,19 @@
     <title>Todo-App</title>
 </head>
 <body>
-    <nav>
-        <div class="nav_logo flex-row">
-            <ion-icon  class="nav_logo_icon" name="checkbox-outline"></ion-icon>
-            <span class="nav_logo_text">To Do</span>
-        </div>
-        <div class="nav_search">
-            <ion-icon class="nav_search_icon" name="search" title="search"></ion-icon>
-            <input class="nav_search_input" type="text" name="searchFilter" id="searchFilterInput" placeholder="Search" >
-            <i class="nav_search_clear ph-x-bold"></i>
-        </div>
-        <div class="nav_account">
-            <i class="nav_acount_icon ph-user-bold"></i>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav_logo flex-row">
+                <ion-icon  class="nav_logo_icon" name="checkbox-outline"></ion-icon>
+                <span class="nav_logo_text">To Do</span>
+            </div>
+            <div class="nav_search">
+                <ion-icon class="nav_search_icon" name="search" title="search"></ion-icon>
+                <input class="nav_search_input" type="text" name="searchFilter" id="searchFilterInput" placeholder="Search" >
+                <i class="nav_search_clear ph-x-bold"></i>
+            </div>
+        </nav>
+    </header>
     <main>
         <section class="incomplete">
             <h1 class="incomplete_message">You have <span id="incompleteCounter">no</span> incomplete tasks</h1>
@@ -81,15 +80,3 @@
     <script src="https://unpkg.com/phosphor-icons"></script>
 </body>
 </html>
-
-<!-- 
-    Next Version will include Insha'Allah 
-        1- Drage-right to remove a task
-        2- Turn on reminde unit
-        3- special buttone in mobiles screenes to add a new task
-        4- remove blue effecte in pointer click evente
-        5- replace all icon to svg then delete script icons files link
-        6- add new favicion for apple devices
-        7- ...
-    Developer| Mohamed Khaled: https://github.com/MKA0000
- -->
